@@ -1,4 +1,5 @@
-# In your game MainActivity
+# Inject mod
+In your game MainActivity
 ```smali
 # onCreate
 invoke-static {p0}, Lcom/zerene/Main;->Start(Landroid/content/Context;)V
