@@ -8,5 +8,5 @@ If unity game
 find com.unity3d.player.UnityPlayer in smali
 ```smali
 # injectEvent
-invoke-super {p0, p1}, Landroid/opengl/GLSurfaceView;->onTouchEvent(Landroid/view/MotionEvent;)Z
+invoke-static {p1}, Lcom/zerene/Main;->onTouchEvent(Landroid/view/MotionEvent;)V
 ```
